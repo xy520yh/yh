@@ -731,11 +731,11 @@ select::-ms-expand {
 @media screen and (orientation: portrait) {
 	.wrap_user_center .btn-wrap {
     display: flex;
-    justify-content:flex-start; flex-wrap:wrap; margin-left:0.7rem; border:1px solid #f00;
+    justify-content:flex-start; flex-wrap:wrap; margin-left:0.4rem; 
     margin-bottom: 0.13rem;
 }
 	.wrap_user_center .btn {
-    width: 3rem;
+    width: 3.2rem;
     height: 0.6rem;margin-bottom:0.2rem; margin-right:0.2rem;
     padding: 0.02rem;
     border: 1px solid #d5ebe0;
