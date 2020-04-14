@@ -736,11 +736,11 @@ select::-ms-expand {
 	}
 	.wrap_user_center .btn-wrap {
     display: flex;
-    justify-content:flex-start; flex-wrap:wrap; margin-left:0.6rem; 
+    justify-content:flex-start; flex-wrap:wrap; margin-left:0.3rem; 
     margin-bottom: 0.13rem;
 }
 	.wrap_user_center .btn {
-    width: 3.2rem;
+    width: 2.8rem;
     height: 0.6rem;margin-bottom:0.2rem; margin-right:0.2rem;
     padding: 0.02rem;
     border: 1px solid #9b9a9b;
