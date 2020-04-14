@@ -703,8 +703,8 @@ select::-ms-expand {
 
 @media screen and (orientation: landscape) {
 	.wrap_usrer_t_l p {
-		font-size:0.18rem;
-		margin-bottom: 0.1rem; font-weight:normal; color:#f00;
+		font-size:0.17rem;
+		margin-bottom: 0.1rem; font-weight:normal;
 	}
 	.wrap_user_center .btn-wrap {
     display: flex;
