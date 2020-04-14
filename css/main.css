@@ -736,7 +736,7 @@ select::-ms-expand {
 	}
 	.wrap_user_center .btn-wrap {
     display: flex;
-    justify-content:flex-start; flex-wrap:wrap; margin-left:0.3rem; 
+    justify-content:flex-start; flex-wrap:wrap; margin-left:0.1rem;
     margin-bottom: 0.13rem;
 }
 	.wrap_user_center .btn {
