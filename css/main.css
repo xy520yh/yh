@@ -740,8 +740,8 @@ select::-ms-expand {
     margin-bottom: 0.13rem;
 }
 	.wrap_user_center .btn {
-   width: 3rem;
-    height: 0.6rem;margin-bottom:0.2rem; margin-right:0.2rem;
+   width: 2rem;
+    height: 0.6rem;margin-bottom:0.2rem; margin-right:0.1rem;
     padding: 0.02rem;
     border: 1px solid #9b9a9b;
 }
