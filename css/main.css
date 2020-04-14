@@ -707,7 +707,7 @@ select::-ms-expand {
 
 @media screen and (orientation: landscape) {
 	.wrap_usrer_t_l p {
-		font-size:0.12rem;
+		font-size:0.18rem;
 		margin-bottom: 0.1rem; font-weight:normal; color:#f00;
 	}
 	.wrap_user_center .btn-wrap {
@@ -740,7 +740,7 @@ select::-ms-expand {
     margin-bottom: 0.13rem;
 }
 	.wrap_user_center .btn {
-   width: 2rem;
+ 
     height: 0.6rem;margin-bottom:0.2rem; margin-right:0.1rem;
     padding: 0.02rem;
     border: 1px solid #9b9a9b;
