@@ -24,7 +24,7 @@ select,
 }
 
 body {
-    font-size: .12rem;
+    font-size: 0.12rem;
     font-family: Helvetica, Microsoft YaHei, Tohoma, Arial;
     background: #fffcf7;
 }
@@ -98,7 +98,7 @@ html {
 }
 
 .header_title {
-    font-size: 0.36rem;
+    font-size: 0.46rem;
     color: #fff;
     height: 1.42rem;
     line-height: 1.42rem;
@@ -181,7 +181,7 @@ input {
    
     width: 100%;
     height: 100%;
-    font-size: 0.32rem;
+    font-size: 0.33rem;
 }
 
 .wrap_user_center .btn.user_squr-none {
@@ -200,14 +200,11 @@ input {
     height: 0.39rem
 }
 
-.wrap_usrer_t_l p {
-    font-size: 0.26rem;
-    margin-bottom: 0.1rem; font-weight:normal;
-}
+
 
 .user_squr a {
-    background: #e74c3c;
-    color: #fff;
+    background: #e6e6e6;
+    color: #000;
 }
 
 .user_squr {
@@ -215,8 +212,8 @@ input {
 }
 
 .user_squr_lv a {
-    background: #2ba785;
-    color: #fff;
+    background: #e6e6e6;
+    color: #000;
 }
 
 .user_squr_lv {
@@ -256,7 +253,7 @@ input {
 }
 
 .ul_list {
-    border: 2px solid #d6e1de;
+    border: 0.02rem solid #d6e1de;
     border-radius: 0.05rem;
     text-align: center;
     background: #fff;
@@ -267,7 +264,7 @@ h3.gray {
     display:flex;
    justify-content:space-between;
     background: #f0f0f0;
-    font-size: 0.26rem;
+    font-size: 0.3rem;
     color: #808080;
     height: 0.5rem;    
     line-height: 0.5rem;
@@ -709,6 +706,10 @@ select::-ms-expand {
 }
 
 @media screen and (orientation: landscape) {
+	.wrap_usrer_t_l p {
+		font-size: 0.22rem;
+		margin-bottom: 0.1rem; font-weight:normal; border:1px solid #f00;
+	}
 	.wrap_user_center .btn-wrap {
     display: flex;
     justify-content:flex-start; flex-wrap:wrap; 
@@ -718,7 +719,7 @@ select::-ms-expand {
     width: 3rem;
     height: 0.6rem;margin-bottom:0.2rem; margin-right:0.2rem;
     padding: 0.02rem;
-    border: 1px solid #d5ebe0;
+    border: 1px solid #9b9a9b;
 }
     /* 横屏 */
     /*.wrap_header{ background:url(../images/heng.png) no-repeat;width:13.34rem; height:.53rem;  background-size: 100% 100%; text-align:center;}
@@ -729,6 +730,10 @@ select::-ms-expand {
 }
 
 @media screen and (orientation: portrait) {
+	.wrap_usrer_t_l p {
+		font-size: 0.28rem;
+		margin-bottom: 0.1rem; font-weight:normal;
+	}
 	.wrap_user_center .btn-wrap {
     display: flex;
     justify-content:flex-start; flex-wrap:wrap; margin-left:0.6rem; 
@@ -738,7 +743,7 @@ select::-ms-expand {
     width: 3.2rem;
     height: 0.6rem;margin-bottom:0.2rem; margin-right:0.2rem;
     padding: 0.02rem;
-    border: 1px solid #d5ebe0;
+    border: 1px solid #9b9a9b;
 }
     /* 竖屏 */
 }
