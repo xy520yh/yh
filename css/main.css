@@ -165,7 +165,7 @@ input {
 
 .wrap_user_center .btn-wrap {
     display: flex;
-    justify-content:flex-start; flex-wrap:wrap;
+    justify-content:flex-start; flex-wrap:wrap; 
     margin-bottom: 0.13rem;
 }
 
@@ -709,6 +709,17 @@ select::-ms-expand {
 }
 
 @media screen and (orientation: landscape) {
+	.wrap_user_center .btn-wrap {
+    display: flex;
+    justify-content:flex-start; flex-wrap:wrap; 
+    margin-bottom: 0.13rem;
+}
+	.wrap_user_center .btn {
+    width: 3rem;
+    height: 0.6rem;margin-bottom:0.2rem; margin-right:0.2rem;
+    padding: 0.02rem;
+    border: 1px solid #d5ebe0;
+}
     /* 横屏 */
     /*.wrap_header{ background:url(../images/heng.png) no-repeat;width:13.34rem; height:.53rem;  background-size: 100% 100%; text-align:center;}
 .header_title{font-size:0.36rem; color:#fff;height:.53rem; line-height:.53rem; width:13.34rem;}
@@ -718,5 +729,16 @@ select::-ms-expand {
 }
 
 @media screen and (orientation: portrait) {
+	.wrap_user_center .btn-wrap {
+    display: flex;
+    justify-content:flex-start; flex-wrap:wrap; margin-left:1.1rem;
+    margin-bottom: 0.13rem;
+}
+	.wrap_user_center .btn {
+    width: 2rem;
+    height: 0.6rem;margin-bottom:0.2rem; margin-right:0.2rem;
+    padding: 0.02rem;
+    border: 1px solid #d5ebe0;
+}
     /* 竖屏 */
 }
