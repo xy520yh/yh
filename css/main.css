@@ -164,13 +164,14 @@ input {
 }
 
 .wrap_user_center .btn-wrap {
-   
+    display: flex;
+    justify-content:flex-start; flex-wrap:wrap;
     margin-bottom: 0.13rem;
 }
 
 .wrap_user_center .btn {
-    width: 3rem; float:left;
-    height: 0.6rem;margin-right:0.2rem; margin-bottom:0.2rem;
+    width: 3rem;
+    height: 0.6rem;margin-bottom:0.2rem; margin-right:0.2rem;
     padding: 0.02rem;
     border: 1px solid #d5ebe0;
 }
