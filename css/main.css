@@ -26,7 +26,7 @@ select,
 body {
     font-size: 0.12rem;
     font-family: Helvetica, Microsoft YaHei, Tohoma, Arial;
-    background: #fffcf7;
+    background: #fffcf7; overflow:hidden;
 }
 
 h1,
@@ -289,7 +289,7 @@ background:#fafafa;/*border-top:1px solid #ededed; border-bottom:1px solid #eded
 
 	height:3.58rem;
 	overflow-y: auto;overflow-x: hidden;
-  overscroll-behavior: contain;
+  overscroll-behavior: contain;display:webkit-box;margin-bottom:-10px;
 }
 
 .sq01 {
