@@ -26,7 +26,7 @@ select,
 body {
     font-size: 0.12rem;
     font-family: Helvetica, Microsoft YaHei, Tohoma, Arial;
-    background: #fffcf7; overflow:hidden;
+    background: #fffcf7;
 }
 
 h1,
@@ -273,6 +273,7 @@ h3.gray {
     justify-content: space-between;
     height: 0.52rem;
     line-height: 0.52rem; color:#5a5a5a;
+ 	
   
     background: #fff;
     font-size: 0.22rem;
@@ -281,20 +282,11 @@ h3.gray {
 .ul_list li.gray {
 background:#fafafa;/*border-top:1px solid #ededed; border-bottom:1px solid #ededed;*/
 }
-::-webkit-scrollbar {width: 0.08rem;}
-::-webkit-scrollbar-track {background-color:transparent;}
-::-webkit-scrollbar-thumb {background: #c2c0be;border-radius:5px;}
-.list {
-    /* width: 9.6rem; */
 
-	height:3.58rem;
-	overflow-y: auto;overflow-x: hidden;
-  overscroll-behavior: contain;display:webkit-box;margin-bottom:-10px;
-}
 
 .sq01 {
     flex-grow: 2;
-    width: 30%;
+    width: 20%;
   
     flex-shrink: 0;
     display: block;
@@ -315,11 +307,10 @@ background:#fafafa;/*border-top:1px solid #ededed; border-bottom:1px solid #eded
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.border_b{border-bottom:0.02rem dashed #d9d9d9;}
 
 .sq03 {
     flex-grow: 4;
-    width: 30%;
+    width: 40%;
   
     flex-shrink: 0;
     display: block;
@@ -708,8 +699,6 @@ select::-ms-expand {
 }
 
 @media screen and (orientation: landscape) {
-	.mr_b{margin-bottom:0.3rem;}
-
 	.wrap_usrer_t_l p {
 		font-size:0.17rem;
 		margin-bottom: 0.1rem; font-weight:normal; color:#5a5a5a;
@@ -734,7 +723,6 @@ select::-ms-expand {
 }
 
 @media screen and (orientation: portrait) {
-	
 	.wrap_usrer_t_l p {
 		font-size: 0.28rem;
 		margin-bottom: 0.1rem; font-weight:normal; color:#5a5a5a;
@@ -750,4 +738,16 @@ select::-ms-expand {
     border: 1px solid #d9d9d9;border-radius:0.1rem;
 }
     /* 竖屏 */
+}
+
+
+
+
+.content{
+	overflow: auto;
+	position: relative;
+	width: 10rem;
+	max-width: 100%;
+	height:3.6rem; 
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
 }

@@ -10,7 +10,10 @@
     <meta name="Keywords" content="" />
     <meta name="description" content="" />
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <script src="./js/resize.js"></script>
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+   
+
+
     <script>
         var _hmt = _hmt || [];
         (function() {
@@ -43,10 +46,12 @@
                 </span>
                 </div>
             </div>
+            
             <div id="out">
             <div class="ul_list" id="con">
                 <h3 class="gray"><span class="sq01">订单号</span><span class="sq02">充值金额</span><span class="sq03">下单时间</span><span class="sq04">订单状态</span></h3>
-                <ul class="list">
+             	<div id="content-1" class="content mCustomScrollbar">
+                <ul >
 
                     <li><span class="sq01">22222</span><span class="sq02">333</span><span class="sq03">2019-12-19 14：00</span><span class="sq04">已完成</span></li>
                     <li class="gray"><span class="sq01">345</span><span class="sq02">333</span><span class="sq03">2019-12-19 14：00</span><span class="sq04">未完成</span></li>
@@ -67,6 +72,8 @@
 
 
                 </ul>
+                </div>
+             
             </div>
             <div id="box">
                     <p id="drag"></p>
@@ -79,8 +86,11 @@
     </div>
 
     </div>
+     <script src="js/jquery.min.js"  type="text/javascript"></script>
+    <script src="js/resize.js"></script>
+	
 
-
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 
 </body>
