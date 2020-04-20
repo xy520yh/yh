@@ -22,11 +22,11 @@ select,
     margin: 0;
     padding: 0;
 }
-
+html,body{overflow:hidden;}
 body {
     font-size: 0.12rem;
     font-family: Helvetica, Microsoft YaHei, Tohoma, Arial;
-    background: #fffcf7; overflow:hidden;
+    background: #fffcf7; 
 }
 
 h1,
